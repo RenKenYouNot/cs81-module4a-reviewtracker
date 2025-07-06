@@ -105,3 +105,11 @@ addReadBook("Saturday", "Dune", 50); // Adds a new entry for Saturday, demonstra
 printDailySummary(readingLog); // Prints the summary, now including the new Saturday entry.
 console.log("Total minutes read:", totalReadingMinutes(readingLog)); // Calculates and prints the total minutes.
 console.log("Most read book:", mostReadBook(readingLog)); // Determines and prints the most read book.
+
+// --- New Test Case ---
+// Add another reading entry to see how the totals and summaries update.
+addReadBook("Sunday", "The Hobbit", 60);
+console.log("\n--- After adding Sunday's reading ---"); // Added for clarity in console output
+printDailySummary(readingLog);
+console.log("New Total minutes read:", totalReadingMinutes(readingLog));
+console.log("New Most read book:", mostReadBook(readingLog));

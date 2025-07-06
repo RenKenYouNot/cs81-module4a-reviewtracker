@@ -79,7 +79,11 @@ function mostReadBook(log) {
   return maxBook;
 }
 
-
+/**
+ * Purpose: Prints a formatted summary of minutes read for each entry in the log to the console.
+ * Inputs: Takes one parameter: 'log' (an array of reading entry objects).
+ * Output: Prints output directly to the console; does not return a value.
+ */
 function printDailySummary(log) {
   // This loop iterates over each 'entry' object in the provided 'log' array.
   // It's used to access the 'day', 'minutes', and 'book' for each entry.

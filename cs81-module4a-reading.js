@@ -1,3 +1,6 @@
+// Github URL: https://github.com/RenKenYouNot/cs81-module4a-reviewtracker
+
+
 // Weekly reading log
 // This array stores the weekly reading log data.
 // Each element in the array is an object and represents a single reading entry.

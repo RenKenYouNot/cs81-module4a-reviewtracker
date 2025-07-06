@@ -94,6 +94,12 @@ function printDailySummary(log) {
   }
 }
 
+// --- Suggested Improvement ---
+// Improvement: It would be better to keep the 'readingLog' array tucked away inside a class or a module.
+// Why it's helpful: Right now, 'readingLog' is a global variable and any part of the code could accidentally
+// change it. Putting it inside a class (or a module) would protect it and make the code easier to manage. This 
+// would mean functions would either explicitly receive the log as an argument or become methods of that class.
+
 // Example usage
 addReadBook("Saturday", "Dune", 50); // Adds a new entry for Saturday, demonstrating function call and data modification.
 printDailySummary(readingLog); // Prints the summary, now including the new Saturday entry.
